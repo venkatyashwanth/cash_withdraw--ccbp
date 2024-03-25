@@ -1,0 +1,136 @@
+@import "../../variables.scss";
+
+.cash-withdrawal-app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: $white-color;
+}
+
+.cash-withdrawal-container {
+    background-color: $primary-Bg-color;
+    width: 80%;
+    border-radius: 1.6rem;
+    padding: 2.4rem 1.8rem .8rem 1.8rem;
+    max-width: 35rem;
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+        padding: 4.8rem 3.6rem 1.6rem 3.6rem;
+        max-width: 42.2rem;
+    }
+}
+
+.user-details-container {
+    display: flex;
+    align-items: center;
+}
+
+.initial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary-Bg-color;
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 2.4rem;
+
+    @media screen and (min-width: 768px) {
+        height: 6.4rem;
+        width: 6.4rem;
+        border-radius: 3.2rem;
+    }
+
+    .initial {
+        font-family: $primary-font__medium;
+        color: $primary-color;
+        font-size: 1.4rem;
+        @media screen and (min-width:768px){
+            font-size: 2.2rem;
+        }
+    }
+}
+
+.username {
+    font-family: $primary-font__medium;
+    color: $secondary-color;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin-left: .8rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+}
+
+.balance-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+}
+
+.your-balance {
+    color: $teritary-color;
+    font-family: $primary-font__medium;
+    font-size: 1.6rem;
+    margin-top: .4rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 2rem;
+        margin-top: .8rem;
+    }
+}
+
+.balance-amount {
+    color: $secondary-color;
+    font-family: $primary-font__medium;
+    font-size: 2.4rem;
+    margin: 0;
+
+    @media screen and (min-width: 768px) {
+        font-size: 3.2rem;
+    }
+}
+
+.currency {
+    font-family: $primary-font__medium;
+    color: $teritary-color;
+    font-size: 1.2rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.2rem;
+    }
+}
+
+
+.denominations-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.withdraw {
+    font-family: $primary-font__medium;
+    color: $secondary-color;
+    font-size: 2rem;
+    margin-top: 1.6rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 2.4rem;
+        margin-top: 2.4rem;
+    }
+
+}
+
+.choose-sum {
+    font-family: $primary-font__medium;
+    color: $teritary-color;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    @media screen and (min-width: 768px){
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+    }
+}

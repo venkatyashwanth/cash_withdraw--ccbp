@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+
+.denomination-item{
+    list-style-type: none;
+    width: 48%; 
+    margin-bottom: 1.6rem;
+}
+
+.denomination-button{
+    font-family: $primary-font__medium;
+    background-color: $teritary-Bg-color;
+    color: $secondary-color;
+    font-size: 1.6rem;
+    width: 100%;
+    border-radius: .4rem;
+    border: 1px solid $quaternary-color;
+    padding: .4rem 0;
+    cursor: pointer;
+    outline: none;
+    @media screen and (min-width:768px){
+        font-size: 2.4rem;
+    }
+
+    &:active{
+        background-color: $secondary-Bg-color;
+        color: $primary-color;
+    }
+}
